@@ -1,0 +1,28 @@
+footer {
+  background: getColour(beige);
+  flex-shrink: 0;
+  color: getColour(grey);
+  padding-left: 75px;
+  padding-right: 75px;
+  height: 44px;
+
+  @media (max-width: 414px) {
+    margin-top: 205px;
+    height: 92px;
+  }
+
+  .container {
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+
+    @media (max-width: 414px) {
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+
+  .container {
+    @extend .container-flex;
+  }
+}

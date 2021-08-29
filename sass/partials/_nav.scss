@@ -1,0 +1,59 @@
+nav {
+  background-color: getColour(beige);
+  height: 70px;
+  font-size: 36px;
+  text-transform: uppercase;
+
+  a {
+    color: getColour(black);
+    text-decoration: none;
+
+    @media (max-width: 414px) {
+      padding-left: 30px;
+    }
+  }
+  .nav-link {
+    color: getColour(grey);
+    font-size: 18px;
+    font-family: $font-nav;
+  }
+  a.active {
+    color: getColour(pink);
+  }
+  a.navbar-brand {
+    font-size: 36px;
+  }
+
+  ul {
+    @media (max-width: 414px) {
+      padding-bottom: 30px;
+    }
+  }
+
+  li {
+    @media (max-width: 414px) {
+      padding-left: 30px;
+    }
+  }
+}
+
+.navbar {
+  padding: 0px 75px;
+
+  @media (max-width: 414px) {
+    padding: 0px;
+  }
+}
+
+i {
+  color: getColour(primary);
+  font-size: 26px;
+}
+
+.collapse {
+  background-color: getColour(beige);
+}
+.navbar-brand:hover {
+  color: getColour(black);
+  cursor: default;
+}

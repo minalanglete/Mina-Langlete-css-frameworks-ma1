@@ -1,0 +1,31 @@
+.cards {
+  flex-wrap: wrap;
+
+  @media (max-width: 1200px) {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cards__item {
+    height: 264px;
+    max-width: 263px;
+    border-radius: 5%;
+    background-color: getColour(beige);
+    padding: 0px;
+    box-shadow: (0px 6px 12px rgba(0, 0, 0, 0.1));
+
+    &.border__line {
+      background-color: getColour(accent);
+      border: solid getColour(pink);
+    }
+
+    &.border__fill {
+      background-color: getColour(pink);
+      border: solid getColour(accent);
+    }
+  }
+}
+
+.row {
+  gap: 28px;
+}
