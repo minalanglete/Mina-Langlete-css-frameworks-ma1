@@ -13,12 +13,14 @@ footer {
 
   .container {
     padding: 10px 0px 0px 0px;
-    margin: 0px;
 
     @media (max-width: 414px) {
       display: block;
       text-align: center;
       margin-top: 10px;
+    }
+    .container__item {
+      margin-right: 0px;
     }
   }
 
