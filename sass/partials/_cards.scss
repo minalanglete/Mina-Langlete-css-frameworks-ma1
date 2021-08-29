@@ -28,4 +28,13 @@
 
 .row {
   gap: 28px;
+
+  @media (max-width: 1200px) {
+    max-width: 600px;
+    margin: auto;
+  }
+}
+
+.col-md-3 {
+  flex: auto;
 }

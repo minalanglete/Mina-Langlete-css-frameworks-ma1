@@ -114,9 +114,14 @@ footer {
   height: 44px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 1200px) {
   footer {
     margin-top: 205px;
+  }
+}
+
+@media (max-width: 767px) {
+  footer {
     height: 92px;
   }
 }
@@ -125,7 +130,7 @@ footer .container {
   padding: 10px 0px 0px 0px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 767px) {
   footer .container {
     display: block;
     text-align: center;
@@ -185,5 +190,18 @@ h1 {
 
 .row {
   gap: 28px;
+}
+
+@media (max-width: 1200px) {
+  .row {
+    max-width: 600px;
+    margin: auto;
+  }
+}
+
+.col-md-3 {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
 }
 /*# sourceMappingURL=style.css.map */
