@@ -2,8 +2,6 @@ footer {
   background: getColour(beige);
   flex-shrink: 0;
   color: getColour(grey);
-  padding-left: 75px;
-  padding-right: 75px;
   height: 44px;
 
   @media (max-width: 414px) {
